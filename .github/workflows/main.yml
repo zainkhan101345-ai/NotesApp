@@ -18,7 +18,7 @@ jobs:
                run: npm install
 
              - name: Build NextJs App
-               run: npm run Build
+               run: npm run build
 
              - name: Upload builds on Artifacts
                uses: actions/upload-artifact@v7.0.0
